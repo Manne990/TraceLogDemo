@@ -14,5 +14,12 @@ namespace TraceLogDemo
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            var logger = DependencyService.Get<ILoggerService>();
+
+            logger?.LogTrace("Hello Trace Log!");
+        }
     }
 }

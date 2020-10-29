@@ -16,5 +16,6 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Button Clicked="Button_Clicked" Text="Log!" />
     </StackLayout>
 </ContentPage>
